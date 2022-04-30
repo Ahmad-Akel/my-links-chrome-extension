@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Traversy Media Quick Launcher</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 287px;
+        background-color: #666666;
+        color: white;
+      }
+
+      h1 {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        color: white;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+      .modal-media{
+        align-items: center;
+        border-top: 0.5px solid #dadada;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: white;
+        font-weight: lighter;
+        font-size: 15px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 40px;
+      }
+
+      .flex:hover {
+        opacity: 0.7;
+      }
+
+      .flex .fa {
+        font-size: 35px;
+        color: #2f5876;
+      }
+      .personal {
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 22px;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/MyLogo.png" />Oh My Code Launcher
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>Easily Access Ahmad Media content</p>
+    </div>
+    <div class="modal-icons">
+      <div>
+        <p class="personal">Personal:</p>
+        <div class="flex-container">
+          <div class="flex">
+            <a href="https://medium.com/@ahmadakell" target="_blank">
+              <i class="fa fa-medium" style="color: rgb(73, 156, 53)"></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="https://www.linkedin.com/in/ahmadakel" target="_blank">
+              <i class="fa fa-linkedin" style="color: rgb(73, 156, 53)"></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="https://twitter.com/AhmadAk86120125" target="_blank">
+              <i class="fa fa-twitter" style="color: rgb(73, 156, 53)"></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="https://github.com/Ahmad-Akel" target="_blank">
+              <i class="fa fa-github" style="color: rgb(73, 156, 53)"></i>
+            </a>
+          </div>
+        </div>
+        <div class="modal-media">
+            <p class="personal">Oh My Code:</p>
+            <div class="flex-container">
+              <div class="flex">
+                <a href="https://ohmycodechallenge.blogspot.com/" target="_blank">
+                  <i class="fa fa-globe" style="color: rgb(73, 156, 53)"></i>
+                </a>
+              </div>
+              <div class="flex">
+                <a href="https://www.youtube.com/channel/UC5VmIxVtLRsoqlMaan61wSQ" target="_blank">
+                  <i class="fa fa-youtube" style="color: rgb(73, 156, 53)"></i>
+                </a>
+              </div>  
+              <div class="flex">
+                <a href="https://www.facebook.com/Oh-My-Code-103278815261268" target="_blank">
+                  <i class="fa fa-facebook" style="color: rgb(73, 156, 53)"></i>
+                </a>
+              </div>
+              <div class="flex">
+                <a href="https://github.com/ohmycodechallenge" target="_blank">
+                  <i class="fa fa-github" style="color: rgb(73, 156, 53)"></i>
+                </a>
+              </div>
+            </div>
+      </div>
+    </div>
+  </body>
+</html>
