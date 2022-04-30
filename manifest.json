@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "MyLinks",
+  "description": "Quick Launch For My Links",
+  "version": "1.0.0",
+  "icons": { "128": "128.png" },
+  "browser_action": {
+    "default_icon": "20.png",
+    "default popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
